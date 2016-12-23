@@ -6,7 +6,8 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="sys_transform_map">name=Amelia Inbound Incident^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="Amelia Inbound Incident"/>
+        <filter table="sys_transform_map">name=Amelia Inbound Incident^sys_scope=eb320de8db73e6007921d211ce961972^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="Amelia Inbound Incident"/>
+            <item display_table="sys_scope" display_value="Amelia AI" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="eb320de8db73e6007921d211ce961972"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -31,7 +32,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f7a3fc11db336a007921d211ce9619c2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Incident Transform Map</sys_name>
         <sys_overrides/>
         <sys_package display_value="Amelia AI" source="x_ihgih_amelia_ai">eb320de8db73e6007921d211ce961972</sys_package>
@@ -40,7 +41,7 @@
         <sys_scope display_value="Amelia AI">eb320de8db73e6007921d211ce961972</sys_scope>
         <sys_update_name>sys_app_module_f7a3fc11db336a007921d211ce9619c2</sys_update_name>
         <sys_updated_by>AMER\vecchit</sys_updated_by>
-        <sys_updated_on>2016-12-18 20:47:18</sys_updated_on>
+        <sys_updated_on>2016-12-19 12:32:30</sys_updated_on>
         <timeline_page/>
         <title>Incident Transform Map</title>
         <uncancelable>false</uncancelable>
